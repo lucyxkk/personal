@@ -1,9 +1,9 @@
 /* Main */
 
 body {
-    background-color: #d5aeff;
+    /* background-color: #d5aeff; */
     font-family: 'Lato', sans-serif;
-    color: #20262E;
+    color: #EEEEEE;
 }
 
 .planet {
@@ -22,11 +22,6 @@ h1 {
     font-size: 20px;
 }
 
-.tag {
-    width: 20px;
-    height: 20px;
-}
-
 .bio {
     padding: 80px 0px 200px 100px;
 }
@@ -37,7 +32,7 @@ p {
     overflow: hidden;
 }
 
-/* .bio h1,
+.bio h1,
 p {
     animation: 2s slide-right;
 }
@@ -52,7 +47,7 @@ p {
         margin-left: 0%;
         width: 100%;
     }
-} */
+}
 
 /* Skills */
 
@@ -83,7 +78,7 @@ h2{
 
 
 .card{
-    background-color: #dbc0f8;
+    background-color: #1b2735;
     height: 300px;
     width: 200px;
     border-style: solid;
@@ -138,8 +133,34 @@ h2{
 .hobbies{
     text-align: center;
     padding-top: 50px;
+    
+    
+}
+.spark-logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 200px;
+    
 }
 
+.skincare-icon{
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+
+.cooking-icon{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.code-icon{
+    width: 70px;
+    height: 70px;
+    float: right;
+}
 /* Contact */
 
 .contact{
