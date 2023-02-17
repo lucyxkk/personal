@@ -65,6 +65,11 @@ h2 {
 
 }
 
+#js{
+    width: 55px;
+    height: 55px;
+}
+
 /* Projects */
 
 .projects {
@@ -78,7 +83,7 @@ h2 {
 
 
 .card {
-    background-color: #1b2735;
+    background-color: #121626;
     height: 300px;
     width: 200px;
     border-style: solid;
@@ -168,10 +173,27 @@ h2 {
 
 .contact {
     text-align: center;
+
+}
+
+.footer-link{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-img{
+    height: 50px;
+    width: 50px;
 }
 
 /* Footer */
 
+.last-line{
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 .footer {
     text-align: center;
+    padding-bottom: 40px;
 }
