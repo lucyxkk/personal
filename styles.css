@@ -191,7 +191,7 @@ a {
     position: absolute;
     left: 100px;
     top: 170px;
-    
+
 
 }
 
@@ -202,10 +202,10 @@ a {
     position: absolute;
     right: 420px;
     top: 250px;
-    
+
 }
 
-.skincare-desc{
+.skincare-desc {
     margin-top: 50px;
 }
 
@@ -218,9 +218,10 @@ a {
     top: 310px;
 }
 
-.cooking-desc{
+.cooking-desc {
     margin-top: 50px;
 }
+
 .code-icon {
     width: 70px;
     height: 70px;
@@ -230,7 +231,7 @@ a {
     top: 400px;
 }
 
-.code-desc{
+.code-desc {
     margin-top: 50px;
 }
 
@@ -257,7 +258,7 @@ a {
     width: 300px;
     margin-top: 50px;
     margin-bottom: 20px;
-   
+
 }
 
 .footer {
