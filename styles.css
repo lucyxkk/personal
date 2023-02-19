@@ -31,12 +31,11 @@ p {
     overflow: hidden;
 }
 
-.bio h1,
-p {
+.bio {
     animation: 2s slide-right;
 }
 
-/* @keyframes slide-right {
+@keyframes slide-right {
     from {
         margin-left: -50%;
         width: 300%;
@@ -46,7 +45,7 @@ p {
         margin-left: 0%;
         width: 100%;
     }
-} */
+}
 
 /* Skills */
 
@@ -65,9 +64,14 @@ h2 {
 
 }
 
-#js{
+#js {
     width: 55px;
     height: 55px;
+}
+
+.skills-desc {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 /* Projects */
@@ -84,7 +88,7 @@ h2 {
 
 .card {
     background-color: #121626;
-    height: 300px;
+    height: 350px;
     width: 200px;
     border-style: solid;
     border-width: .5px;
@@ -104,7 +108,7 @@ h2 {
 }
 
 .card:hover {
-    flex: 2;
+    scale: 1.1;
 
 }
 
@@ -119,7 +123,7 @@ h2 {
     height: 50px;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #AD7BE9;
+    background-color: #6d40a3;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     border-width: .5px;
@@ -131,7 +135,42 @@ h2 {
 }
 
 .check:hover {
-    background-color: #6d40a3;
+    background-color: #5e3490;
+}
+
+.check-project {
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #474E68;
+    border-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #121626;
+}
+
+.img-convert {
+    width: 200px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.img-personal {
+    width: 310px;
+    height: 160px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.img-simon {
+    width: 310px;
+    height: 160px;
+    border-radius: 8px;
 }
 
 /* Hobbies */
@@ -139,6 +178,7 @@ h2 {
 .hobbies {
     text-align: center;
     padding-top: 50px;
+    position: relative;
 
 
 }
@@ -148,6 +188,10 @@ h2 {
     height: 70px;
     float: left;
     margin-left: 200px;
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    
 
 }
 
@@ -155,18 +199,39 @@ h2 {
     width: 70px;
     height: 70px;
     float: right;
+    position: absolute;
+    right: 420px;
+    top: 250px;
+    
+}
+
+.skincare-desc{
+    margin-top: 50px;
 }
 
 .cooking-icon {
     width: 70px;
     height: 70px;
     float: left;
+    position: absolute;
+    left: 280px;
+    top: 310px;
 }
 
+.cooking-desc{
+    margin-top: 50px;
+}
 .code-icon {
     width: 70px;
     height: 70px;
     float: right;
+    position: absolute;
+    right: 380px;
+    top: 400px;
+}
+
+.code-desc{
+    margin-top: 50px;
 }
 
 /* Contact */
@@ -176,23 +241,25 @@ h2 {
 
 }
 
-.footer-link{
+.footer-link {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.contact-img{
+.contact-img {
     height: 50px;
     width: 50px;
 }
 
 /* Footer */
 
-.last-line{
+.last-line {
     width: 300px;
     margin-top: 50px;
     margin-bottom: 20px;
+   
 }
+
 .footer {
     text-align: center;
     padding-bottom: 40px;
