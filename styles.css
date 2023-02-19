@@ -154,24 +154,17 @@ a {
     color: #121626;
 }
 
-.img-convert {
-    width: 200px;
+.img-project {
+    width: 310px;
     height: 160px;
     border-radius: 8px;
 }
 
+
 .img-personal {
-    width: 310px;
-    height: 160px;
-    border-radius: 8px;
     margin-top: 15px;
 }
 
-.img-simon {
-    width: 310px;
-    height: 160px;
-    border-radius: 8px;
-}
 
 /* Hobbies */
 
